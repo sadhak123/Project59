@@ -1,0 +1,94 @@
+#home {
+    position: inherit;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+body {
+    background: linear-gradient(#08ECD9 0%, #11EA55 100%);
+    color: white;
+    text-align: center;
+}
+
+.line{
+    height:6px;
+    background: white;
+    width: 300px;
+    margin:8px auto;
+}
+
+#readingimg{
+    height: 150px;
+    width: 185px;
+    border-radius: 50%;
+}
+
+#readinghead{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#readp{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.sections{
+    list-style: none;
+    font-family: cursive;
+    float: left;
+    cursor: pointer;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    background: #12ADC1;
+    border-radius: 40px;
+    margin-left: 10px;  
+}
+
+.menu{
+    position: fixed;
+}
+
+.sections:hover{
+    background:orange;
+}
+
+#About{
+    font-family: cursive;
+}
+
+#AboutHead{
+    font-size: 30px;
+}
+
+#Aboutp{
+    font-size: 25px;
+}
+
+.HobbiesImg{
+    height: 200px;
+    width: 280px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.HobbyNames{
+    font-family: cursive;
+}
+
+.hobbyp{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#hobbyHead{
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: bolder
+}
